@@ -4,13 +4,15 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+#
+
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Nishant Sharma"
 title_separator          : "-"
 name                     : &name "Nishant Sharma"
-description              : &description "personal description"
+description              : &description "I am Batman"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -80,14 +82,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Bruce wayne"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "I am Batman"
+  location         : "Jaipur"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  # googlescholar    : "http://yourfullgooglescholarurl.com"
+  email            : "nishant.graviton@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +98,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : ""
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +111,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : ""
   vine             :
   weibo            :
   xing             :
@@ -191,7 +193,7 @@ collections:
 
 # Defaults
 defaults:
-  _posts
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -218,7 +220,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  _publications
+  # _publications
   - scope:
       path: ""
       type: publications
@@ -227,7 +229,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  _portfolio
+  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -236,7 +238,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  _talks
+  # _talks
   - scope:
       path: ""
       type: talks
