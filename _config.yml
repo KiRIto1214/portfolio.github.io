@@ -4,15 +4,13 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-#
-
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Nishant Sharma"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Nishant Sharma"
-description              : &description "I am Batman"
+name                     : &name "Your Name"
+description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -82,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Bruce wayne"
+  name             : "Your Sidebar Name"
   avatar           : "profile.png"
-  bio              : "I am Batman"
-  location         : "Jaipur"
+  bio              : "Your biography for the left-hand sidebar"
+  location         : "Location"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : "nishant.graviton@gmail.com"
+  googlescholar    : "http://yourfullgooglescholarurl.com"
+  email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -98,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : ""
+  github           : "academicpages"
   google_plus      :
   keybase          :
   instagram        :
@@ -111,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : ""
+  twitter          : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
